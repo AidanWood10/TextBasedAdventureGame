@@ -6,17 +6,8 @@ public class Enemy : Entity{
         set { description = value; }
     }
 
-//yeah I got no idea whats going on here
-    public Enemy (string name, string description,int health,int damage,string attackState){
-        this.Name = name;
-        this.Description = description;
-        this.Health = health;
-        this.Damage = damage;
-        this.AttackState = attackState;
-
-    }
-
-
+    Enemy Goblin = new Enemy();
+    
 
     
 

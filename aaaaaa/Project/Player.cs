@@ -1,8 +1,8 @@
 public class Player : Entity{
-    private string location = "";
+    private int location;
     private string itemHeld = "";
 
-    public string Location{
+    public int Location{
         get{ return location;}
         set{ location = value;}
     }
@@ -12,5 +12,5 @@ public class Player : Entity{
         set{ itemHeld = value;}
     }
 
-    
+
 }
